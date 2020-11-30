@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8"/>
+        <title>MASTERCLASS</title>
+    <style type="text/css">
+    div{
+        text-align:center;
+        font-family:arial;
+        color: #FFFFF0;
+        background-image:url("https://i.pinimg.com/564x/63/27/74/632774a87ccbab4b57bc35a1e3483c9f.jpg");
+        background-repeat:no-repeat;
+        background-size: cover;
+        background-attachment:fixed;
+        word-spacing:5px;
+        line-height:50px;
+    }
+    *{
+        margin:0;
+    }
+    div-video{
+        position:static;
+        line-height:80px;
+    }
+    </style>
+    </head>
+    <body>
+        <div>
+        <h1 style="font-size:60px; letter-spacing: 7px">MASTERCLASS</h1>
+        <h1 style="font-size:40px; line-height:200px">INICIANDO SUA JORNADA NA MÚSICA CLÁSSICA</h1>
+        <div-video>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/zyQyXKzL6IE?autoplay=1&mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        </div-video>
+        <h2 style="font-size: 40px; margin-top:40px">Sobre o projeto</h2>
+        <p style="font-size:25px; margin-top:30px; margin-right:150px; margin-left:150px">Criamos este projeto para ajudar quem tem o sonho de se tornar um grande musicista clássico, serão uma série de palestras ministradas por um profissional renomado da área que pode te ajudar a realizar este sonho!</p>
+        <img  style="line-height: 100px; width: 20%; height: 20%; float:left;  margin-top: 80px; margin-left:100px" src="{{url_for('static', filename='violino.jpeg')}}">
+        <p style=" font-size:25px; margin-top: 210px; margin-left: 500px; margin-right:100px; margin-bottom:250px">Gabriel Vieira da Costa é doutor em música pela Royal College of Music em Londres, foi maestro da Orquestra Sinfônica de Chicago e veio ao Brasil para começar sua carreira de influenciador musical através de palestras e masterclasses, ajudando as pessoas a realizarem seus sonhos.</p>
+        <h2 style="margin-left:150px; margin-right:150px; font-size:40px">Não perca tempo, realize seu sonho de se tornar um(a) grande musicista! É só se cadastrar e você receberá no seu e-mail a agenda de palestras e comparecer!</h2>
+        <p style="margin-top:50px; margin-left:150px; margin-right:150px; font-size:30px">Nome completo</p>
+        <input type="text" id="fname" style="width:400px; height:20px"><br>
+        <p style="margin-top:15px; margin-left:150px; margin-right:150px; font-size:30px">Endereço de email</p>
+        <input type="text" id="fname" style="width:400px; height:20px"><br>
+        <input type="submit" value="Enviar">
+        <input type='reset'>
+        </div>
+    </body>
+</html>
